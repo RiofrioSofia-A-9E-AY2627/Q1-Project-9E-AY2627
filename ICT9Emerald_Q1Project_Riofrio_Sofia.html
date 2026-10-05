@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Q1 Project</title>
+    <style type="text/css">
+
+        body {
+            background-color: rgb(11, 3, 37);
+            color: rgb(255, 255, 255);
+            font-family: 'Noto Serif';
+            text-align: center;
+            place-items: center;
+        }
+    </style>
+</head>
+
+<style>
+    .header {
+        background-color: rgb(20, 13, 77);
+        display: flex;
+        flex-direction: row;
+        padding: 21px;
+        border: 5px solid rgb(5, 11, 59);
+        border-radius: 15px;
+        width: 90%;
+    }
+
+    .header ul {
+        list-style: none;
+        display: flex;
+        margin-left: auto;
+        margin-right: 15px;
+        gap: 30px;
+    }
+
+    .main {
+        place-items: center;
+    }
+
+    .about-me {
+        background-color: rgb(20, 13, 77);
+        padding: 21px;
+        border: 5px solid rgb(5, 11, 59);
+        border-radius: 15px;
+        width: 700px;
+    }
+
+    .my-works {
+        background-color: rgb(20, 13, 77);
+        padding: 21px;
+        border: 5px solid rgb(5, 11, 59);
+        border-radius: 15px;
+        width: 800px;
+        margin-top: 40px;
+    }
+
+    .contact-me {
+        background-color: rgb(20, 13, 77);
+        padding: 21px;
+        border: 5px solid rgb(5, 11, 59);
+        border-radius: 15px;
+        width: 800px;
+        margin-top: 40px;
+    }
+
+    .flexbox {
+        display: flex;
+    }
+
+    .border {
+        border: 5px solid rgb(5, 11, 59);
+        border-radius: 15px;
+    }
+</style>
+
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <img src="" alt="logo">
+        <ul>
+            <li>About Me</li>
+            <li>My Works</li>
+            <li>Contact Me</li>
+
+        </ul>
+    </div>
+    <!-- END OF HEADER -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-image">
+        <img src="gabbipfp.png" alt="profile-pic" style="margin-top: 55px;">
+        <div class="hero-text">
+            <h1>Sofia Gabrielle Riofrio</h1>
+            <p>Aspiring Writer and Musical Artist</p>
+        </div>
+    </div>
+    <!-- END OF HERO -->
+
+    <hr style="border: 2px solid rgb(20, 13, 77); margin: 50px;" width="95%">
+    <div class="main">
+        <!-- Add your SW1, Drill2 images -->
+
+        <div class="about-me">
+            <h1>About Me</h1>
+            <p>I am a JHS student with a dream to pursue Fashion and Music.</p>
+        </div>
+
+        <div class="my-works">
+            <h1>My Works</h1>
+            <div class="flexbox">
+                <div style="text-align: left;">
+                    <h3 style="margin-left: 50px;">My Mobile App Recommendations</h3>
+                    <ul style="margin-left: 25px;">
+                        <li style="margin-bottom: 10px;">it has a green/black retro vibe for aesthetic feel.</li>
+                        <li style="margin-bottom: 10px;">it is positioned downwards for a easily readable UI.</li>
+                        <li style="margin-bottom: 10px;">it recommends the reader multiple reliable apps.</li>
+                    </ul>
+                </div>
+                <div>
+                    <img style="margin-top: 105px;" src="Screenshot 2026-09-15 071200.png" alt="drill1" width="65%" class="border">
+                </div>
+            </div>
+
+             <div class="flexbox">
+                <div style="text-align: left;">
+                    <h3 style="margin-left: 50px;">My Favorite Spotify Artists/Playlists</h3>
+                    <ul style="margin-left: 25px;">
+                        <li style="margin-bottom: 10px;">it has a dark periwinkle and black color that fits the theme of the album covers</li>
+                        <li style="margin-bottom: 10px;">it has a youtube link to the music video attached below the images.</li>
+                        <li style="margin-bottom: 10px;">it recommends the user new songs to listen to.</li>
+                    </ul>
+                </div>
+                <div>
+                    <img style="margin-top: 105px; margin-left: 20px;" src="image.png" alt="drill1" width="65%" class="border">
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-me">
+            <h1>Contact Me</h1>
+            <form action="">
+                <label for="">Name:</label>
+                <input type="text"  placeholder="Full Name">
+
+                <label for="" style="margin-left: 60px;">Email:</label>
+                <input type="text" placeholder="Email" style="margin-bottom: 40px;"> <br>
+
+                <label for=""><b>How did you find me?</b></label> <br>
+                <input type="radio" name="find" id="" style="margin-top: 20px;"> <label for="">Facebook</label>
+                <input type="radio" name="find" id=""> <label for="">Google</label>
+                <input type="radio" name="find" id="" style="margin-bottom: 20px;"> <label for="">Friends</label> <br>
+
+                <label for=""><b>Interested in:</b></label> <br>
+                <input type="checkbox" name="" id="" style="margin-top: 20px;">
+                <label for="">Web Design</label>
+                <input type="checkbox" name="" id="">
+                <label for="">Graphic Design</label>
+                <input type="checkbox" name="" id="">
+                <label for="" style="margin-bottom: 20px;">Robotics</label> <br>
+
+                <label for=""><b>Rate my Portfolio</b></label> <br>
+                <select name="" id="" style="margin-top: 20px; margin-bottom: 20px;">
+                    <option value="">1 star</option>
+                    <option value="">2 stars</option>
+                    <option value="">3 stars</option>
+                    <option value="">4 stars</option>
+                    <option value="">5 stars</option>
+                </select> <br>
+
+                <label for=""><b>Any feedback?</b></label> <br>
+                <textarea name="" id="" style="padding: 20px; margin-bottom: 20px;"></textarea> <br>
+
+                <input type="submit" value="Submit!" style="padding: 15px; width: 250px;">
+            </form> <br>
+            
+        
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 | Sofia Gabrielle Avecilla Riofrio | Q1-Project</p>
+    </div>
+
+</body>
+
+</html>
